@@ -1,0 +1,1 @@
+// Question 40: Album: Create objects for music albums.
