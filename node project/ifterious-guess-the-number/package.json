@@ -1,0 +1,25 @@
+{
+  "name": "ifterious-guess-the-number",
+  "version": "1.0.0",
+  "description": "Welcome, Ifterious Guess the number is a fun game you just have to guess the right number to win let's see how good you are at this...",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ifterious",
+    "Guess",
+    "the",
+    "number"
+  ],
+  "author": "Ifham Ahmed Khan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
