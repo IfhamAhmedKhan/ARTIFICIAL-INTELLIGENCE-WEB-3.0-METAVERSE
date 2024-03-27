@@ -22,3 +22,11 @@ division_result = 10 / 2
 favorite_color = input("Enter your favorite color: ")
 
 print("\nName:", name, "\nAge:", age, "\nFavorite color:", favorite_color, "\nSum result:", sum_result, "\nDivision result:", division_result)
+
+
+#--------------------------------------
+
+def table(num):
+    for i in range(11):
+        ans = num * i
+        print(num, "X", i, "=", ans)
