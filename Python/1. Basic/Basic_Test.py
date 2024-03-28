@@ -25,8 +25,18 @@ print("\nName:", name, "\nAge:", age, "\nFavorite color:", favorite_color, "\nSu
 
 
 #--------------------------------------
-
+# this is for table
 def table(num):
     for i in range(11):
         ans = num * i
         print(num, "X", i, "=", ans)
+
+
+# guess the number game
+def guess_the_number(userNumber):
+    if (userNumber == 69):
+        print("you guessed it right")
+    else:
+        print("you are dead!")
+
+guess_the_number(input("Enter a number: "))
