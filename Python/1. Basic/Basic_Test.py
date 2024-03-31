@@ -40,3 +40,4 @@ def guess_the_number(userNumber):
         print("you are dead!")
 
 guess_the_number(input("Enter a number: "))
+
