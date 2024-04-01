@@ -99,3 +99,13 @@
 
 # args is like tuple
 # kwargs is like dict
+
+# practice question 
+# user_answers = ["Yes", "", "No", "", "Maybe", "", "Yes"]
+
+# # Create a new list without empty answers
+# clean_list = list(filter(lambda answer: answer != "", user_answers))
+
+# # Display the cleaned list of answers
+# print(clean_list)
+
