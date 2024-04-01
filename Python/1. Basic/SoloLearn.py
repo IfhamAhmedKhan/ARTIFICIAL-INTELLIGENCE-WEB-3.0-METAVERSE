@@ -55,3 +55,47 @@
 # numb = [1,2,3]
 # print(numb[10])
 
+# functional programming
+# def shout(text):  
+#     return text.upper()
+# yell = shout
+# print(yell("Hello"))
+
+# lambda function
+# greet = lambda name: "Welcome, " + name
+
+# print(greet("Bob"))
+
+# map function
+# names = ["alice", "bob", "CHARLIE", "Tom"]
+
+# def capitalize(name):
+#   return name.capitalize()
+
+# capitalized = map(capitalize, names)
+# capitalized = list(capitalized)
+
+# print(capitalized)
+
+# Transforms the items of an iterable: map()
+# Returns items that meet a condition: filter()
+
+# args
+# def total(*args):
+#   result = 0
+#   for arg in args:
+#     result += arg
+#   return result
+
+# def display(*words):
+#   for item in words:
+#     print(item)
+# display("paper", "pen", "pencil")
+
+# kwargs
+# def display_info(**kwargs):
+#   for key, value in kwargs.items():
+#     print(key, ":", value)
+
+# args is like tuple
+# kwargs is like dict
