@@ -109,3 +109,10 @@
 # # Display the cleaned list of answers
 # print(clean_list)
 
+# ----------------------
+
+# OOP pillars task:
+
+class Dog:
+    def __init__(self, name):
+        self.name = name
