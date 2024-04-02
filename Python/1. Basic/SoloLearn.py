@@ -116,3 +116,14 @@
 class Dog:
     def __init__(self, name):
         self.name = name
+
+    def bark(self):
+        print("Bark bark!")
+
+myPet = Dog("Leo")
+myPet.bark()
+print("My pet name is: ",myPet.name)
+
+friendsPet = Dog("Tommy")
+friendsPet.bark()
+print("My friends pet name is: ",friendsPet.name)
