@@ -127,3 +127,11 @@ print("My pet name is: ",myPet.name)
 friendsPet = Dog("Tommy")
 friendsPet.bark()
 print("My friends pet name is: ",friendsPet.name)
+
+
+class Cat:
+    def __init__(self, name):
+        self.name = name
+
+myCat = Cat("Kako")
+
