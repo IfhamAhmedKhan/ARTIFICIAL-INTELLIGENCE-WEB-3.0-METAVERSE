@@ -12,3 +12,5 @@ print("standard deviation:", np.std(data))
 print("variance:", np.var(data))
 
 df = pd.read_csv('titanic.csv')
+
+df.head()
